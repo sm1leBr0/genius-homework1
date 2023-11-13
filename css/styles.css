@@ -1,0 +1,117 @@
+:root {
+  --primary-color-white: #ffffff;
+  --primary-color-light: #2b7fff;
+  --primary-color-dark: #011c44;
+  --secondary-color-dark: #4a4a4a;
+  --secondary-color-light: #747272;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--primary-color-dark);
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: "Play", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+.section-title span {
+  color: var(--primary-color-light);
+}
+
+.heavy {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.left {
+  text-align: left;
+}
+/*header*/
+
+.header-link {
+  text-decoration: none;
+  color: var(--primary-color-dark);
+  font-weight: 400;
+}
+.header-link:hover {
+  color: var(--primary-color-light);
+  font-weight: 700;
+}
+/* section 1 */
+
+.hero-title {
+  font-size: 140px;
+  text-transform: capitalize;
+  color: var(--primary-color-light);
+}
+
+.order-call {
+  background-color: #2b7fff;
+  border: 2px solid var(--primary-color-light);
+  color: var(--primary-color-white);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order-call:hover {
+  background-color: transparent;
+  color: var(--primary-color-dark);
+}
+
+.call-info {
+  color: var(--secondary-color-dark);
+  font-size: 12px;
+}
+
+/* section 2 */
+
+.section2 p {
+  font-size: 22px;
+}
+.dark {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* footer */
+
+.footer-link,
+.address-link {
+  color: var(--primary-color-white);
+  font-size: 16px;
+}
+.footer-link,
+.address-link:hover {
+  color: var(--secondary-color-dark);
+}
+
+.address-copyright {
+  font-size: 13px;
+  color: var(--secondary-color-light);
+}
